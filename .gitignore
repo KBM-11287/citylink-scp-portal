@@ -1,0 +1,13 @@
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+
+# Future Node/build tooling (Sprint 3+)
+node_modules/
+npm-debug.log
+.env
