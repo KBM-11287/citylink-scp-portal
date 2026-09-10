@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - CityLink Initiatives Smart Community Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- Header, nav, hero Section go here -->
+    <div class="utility-bar">
+        <span>Skip To Main Content</span>
+        <span>Accessibility&nbsp;|&nbsp;Contact</span>
+    </div>
+
+    <header class="main-header">
+        <a href="index.html" class="logo">
+            <span class="logo-mark">CL</span>
+            <span class="logo-text">CityLink<br><small>INITIATIVES</small></span>
+        </a>
+
+        <div class="header-actions">
+            <form role="search" class="search">
+                <input type="search" placeholder="Search Services and Information">
+                <button type="submit" aria-label="Search">⌕</button>
+            </form>
+            <a href="#" class="btn btn-primary">Login/ Sign Up</a>
+        </div>
+    </header>
+
+    <nav class="primary-nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+            ☰ Menu
+        </button>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html" >Services</a>
+                <a href="announcements.html">Announcements</a>
+                <a href="feedback.html" aria-current="page">Feedback</a>
+                <a href="about.html">About</a>
+            </div>
+    </nav>
+
+   <main id="main-content">
+    <section class="hero">
+        <div>
+            <p class="eyebrow">Feedback</p>
+            <h1>Tell us what you think</h1>
+            <p class="hero-lead">Your feedback helps CityLink Initiatives improve services for the whole community. Submissions are anonymous unless you choose to share your contact details.</p>
+        </div>
+    </section>
+
+    <section class="quick-services">
+        <h2>Submit feedback</h2>
+        <form class="feedback-form" action="#" method="post">
+            <div class="form-field">
+                <label for="fb-name">Name (optional)</label>
+                <input type="text" id="fb-name" name="name">
+            </div>
+
+            <div class="form-field">
+                <label for="fb-email">Email (optional)</label>
+                <input type="email" id="fb-email" name="email">
+            </div>
+
+            <div class="form-field">
+                <label for="fb-category">Feedback category</label>
+                <select id="fb-category" name="category">
+                    <option value="general">General feedback</option>
+                    <option value="complaint">Service complaint</option>
+                    <option value="compliment">Compliment</option>
+                    <option value="suggestion">Suggestion</option>
+                    <option value="accessibility">Accessibility issue</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="fb-message">Your feedback</label>
+                <textarea id="fb-message" name="message" rows="6" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit feedback</button>
+        </form>
+    </section>
+    </main>
+
+    <!--Footer goes here-->
+    <footer class="site-footer">
+    <div class="footer-columns">
+        <div>
+            <h4>CityLink Initiatives</h4>
+            <p>Serving our community online and in person.</p>
+        </div>
+        <div>
+            <h4>Useful links</h4>
+            <p><a href="#">Privacy Policy</a><br><a href="#">Accessibility</a><br><a href="#">Contact Us</a></p>
+        </div>
+        <div>
+            <h4>Visit or call</h4>
+            <p>About this Site<br>(08) 9000 1234</p>
+        </div>
+    </div>
+    <p class="copyright">© 2026 CityLink Initiatives. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+
+</body>
+</html>

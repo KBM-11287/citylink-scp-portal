@@ -121,6 +121,20 @@ body {
   margin-bottom: 14px;
 }
 
+.feedback-form { max-width: 560px; display: flex; flex-direction: column; gap: 20px; }
+.form-field { display: flex; flex-direction: column; gap: 6px; }
+.form-field label { font-weight: 600; }
+.form-field input,
+.form-field select,
+.form-field textarea {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+.form-field textarea { resize: vertical; }
+
 .site-footer { background: var(--color-navy); color: white; padding: 52px 24px 36px; }
 .footer-columns { display: flex; gap: 60px; flex-wrap: wrap; }
 .footer-columns a { color: #bfccd6; }
@@ -131,5 +145,5 @@ body {
   .hero-graphic { width: 100%; }
   .nav-toggle { display:block;}
   .nav-links {display:none; flex-direction: column; gap: 16px; margin-top: 12px;}
-  .nav-links.nav-linksopen { display:flex; }
+  .nav-links.nav-links--open { display:flex; }
 }
